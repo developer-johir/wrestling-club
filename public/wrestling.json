@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "name": "Brock Lesnar",
+    "info": "Brock Edward Lesnar is an American Canadian professional wrestler, former mixed martial artist.",
+    "age": 45,
+    "time": 50,
+    "img": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQNcjt0eiMGkR-BJBMIV6--TI-2KMEPYvquycX2k-bO1m-qp07CEG5zdQyYlYSownF9ki8m0J5GrlHjQOo"
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "name": "Kurt Angle",
+    "info": "Kurt Steven Angle is an American retired professional wrestler, Olympic gold medalist in American freestyle wrestling.",
+    "age": 53,
+    "time": 40,
+    "img": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/15/52/1450885546-kurt-angle-3.jpg"
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "name": "Ken Shamrock",
+    "info": "Kenneth Wayne Shamrock is an American bare-knuckle boxing promoter and retired professional wrestler.",
+    "age": 58,
+    "time": 35,
+    "img": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcR7lD6EQz4At1RRwY7-jTRwd0mPU7CKEbslbabvSznhCiN6OQAjjPJ4oIYJg2GMqR2xxZXhCB84tF-8MK4"
+  },
+  {
+    "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+    "name": "Steve Blackman",
+    "info": "Steve Blackman is an American martial arts instructor, bail bondsman, and former professional wrestler.",
+    "age": 59,
+    "time": 32,
+    "img": "https://preview.redd.it/dysu82drx7a41.jpg?auto=webp&s=f244a11570fca372e11bb6bfc8fdfc084871a50a"
+  },
+  {
+    "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
+    "name": "Lou Thesz",
+    "info": "Aloysius Martin Lou Thesz was an American professional wrestler",
+    "age": 55,
+    "time": 30,
+    "img": "https://media.gettyimages.com/photos/professional-wrestler-lou-thesz-of-the-united-states-poses-for-a-picture-id1254135063?s=594x594"
+  },
+  {
+    "id": "8a5b4a9c-76ea-4fbb-9c70-9548de4eab01",
+    "name": "Harley Race",
+    "info": "Harley Leland Race was an American professional wrestler, promoter, and trainer.",
+    "age": 60,
+    "time": 45,
+    "img": "https://www.njpw1972.com/wp-content/uploads/2019/08/02.jpg"
+  }
+]
