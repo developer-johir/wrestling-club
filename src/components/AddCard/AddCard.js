@@ -1,6 +1,13 @@
 import React from 'react';
 import './AddCard.css'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notify = () => {
+    toast("Finally completed");
+}
+
 const AddCard = (props) => {
     const {cart} = props;
 
@@ -42,7 +49,8 @@ const AddCard = (props) => {
             </div>
 
             <div>
-            <button type="button" class="btn btn-danger w-100 text-white fw-bold mt-5">Activity Completed</button>
+            <button onClick={notify} type="button" class="btn btn-danger w-100 text-white fw-bold mt-5">Activity Completed</button>
+            <ToastContainer/>
             </div>
         </div>
     );
