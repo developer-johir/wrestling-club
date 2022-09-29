@@ -2,6 +2,12 @@ import React from 'react';
 import './AddCard.css'
 
 const AddCard = (props) => {
+    const {cart} = props;
+
+    let total = 0;
+    for(const player of cart){
+        total = total + player.time;
+    }
     return (
         <div className='mt-4'>
             <h5>Add A Break</h5>
@@ -24,10 +30,10 @@ const AddCard = (props) => {
             </div>
 
             <div className='mt-5'>
-                <h5>Exercise Details</h5>
+                <h5>Wrestling Details</h5>
                 <div className='bg-light text-warning p-2 rounded d-flex justify-content-between align-items-center exercise'>
-                    <h5>Exercise time</h5>
-                    <h6>00 minutes</h6>
+                    <h5>Wrestling time</h5>
+                    <h6>{total} minutes</h6>
                 </div>
                 <div className='bg-light text-warning p-2 rounded d-flex justify-content-between align-items-center exercise mt-3'>
                     <h5>Break time</h5>

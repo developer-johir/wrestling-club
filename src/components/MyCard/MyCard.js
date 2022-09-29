@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faDownLong, faLocation, faLocationArrow, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './MyCard.css'
-import AddCard from '../AddCard/AddCard';
 
 const MyCard = () => {
     return (
@@ -36,7 +35,7 @@ const MyCard = () => {
             </div>
 
             <div>
-                <AddCard></AddCard>
+                
             </div>
         </div>
     );
