@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './AddCard.css'
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -17,6 +17,10 @@ const AddCard = (props) => {
     }
 
     const [brTime, setBrTime] = useState()
+
+    useEffect( () => {
+        localStorage.setItem('Time', brTime);
+    }, [brTime])
 
     return (
         <div className='mt-4'>

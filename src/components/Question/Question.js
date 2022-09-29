@@ -3,7 +3,7 @@ import './Question.css'
 
 const Question = () => {
     return (
-        <div className='mt-5'>
+        <div className='mt-5 px-5'>
             <h1 class="text-center">Question and answer</h1>
             <div className='mt-4'>
             <h4><span class="text-primary">Question-1:</span> How does React work?</h4>
