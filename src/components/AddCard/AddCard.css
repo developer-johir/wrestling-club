@@ -6,10 +6,10 @@
     justify-content: center;
     border-radius: 50%;
 }
-.card-time a{
-    text-decoration: none;
+.card-time buttopn{
     color: black;
     font-weight: 500;
+    border: none;
 }
 
 .exercise h5{
