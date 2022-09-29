@@ -13,7 +13,7 @@ const Wrestling = (props) => {
                     <p>Age: <b>{age}</b></p>
                     <p>Time required: <b>{time}m</b></p>
 
-                    <button type="button" class="btn btn-info w-100">Add to list</button>
+                    <button type="button" class="btn btn-danger w-100 text-white">Add to list</button>
                     
                 </div>
             </div>

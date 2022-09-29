@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faDownLong, faLocation, faLocationArrow, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './MyCard.css'
+import AddCard from '../AddCard/AddCard';
 
 const MyCard = () => {
     return (
@@ -32,6 +33,10 @@ const MyCard = () => {
                     <h2>23<sub>yrs</sub></h2>
                     <p className='text-white'>Age</p>
                 </div>
+            </div>
+
+            <div>
+                <AddCard></AddCard>
             </div>
         </div>
     );

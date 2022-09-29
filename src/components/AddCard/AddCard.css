@@ -1,0 +1,24 @@
+.card-time{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.card-time a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.exercise h5{
+    color: black;
+    font-size: 16px;
+    margin-top: 7px;
+}
+.exercise h6{
+    color: rgb(171, 148, 148);
+    font-size: 15px;
+    margin-top: 7px;
+}
